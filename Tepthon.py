@@ -77,17 +77,17 @@ async def _(event):
 @Tepthon.on(events.NewMessage(outgoing=True, pattern=r"\.فحص"))
 async def _(event):
     start = datetime.datetime.now()
-    await event.edit("ZEKO - جاري الفحص....")
+    await event.edit("zico - جاري الفحص....")
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-**ZEKO - تشيكر زيكو
+**zico - تشيكر زيكو
 ☆ VERSION : 3.3
 ☆ PING : `{ms}`
 ☆ DATE : `{m9zpi}`
 ☆ ID : `{event.sender_id}`
-☆ ZEKO : @r_rr6 - @c_u_6**
-☆ Developer : @c_u_6
+☆ zico : @r_rr6 - @c_u_6**
+☆ Chanel : @Xx_Sorce
 
 -قـم بإرسال `.الاوامر`
 ''')
