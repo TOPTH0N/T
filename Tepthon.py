@@ -64,6 +64,9 @@ async def join_channel():
         await Tepthon(JoinChannelRequest("@Xx_Sorce"))
         await Tepthon(JoinChannelRequest("@Xx_Zico"))
         await Tepthon(JoinChannelRequest("@c_u_e"))
+        await Tepthon(JoinChannelRequest("@D8BB8"))
+        await Tepthon(JoinChannelRequest("@WB8B8"))
+        await Tepthon(JoinChannelRequest("@M8BB8"))
     except BaseException:
         pass
 
@@ -88,6 +91,7 @@ async def _(event):
 ☆ ID : `{event.sender_id}`
 ☆ zico : @r_rr6 - @c_u_6**
 ☆ Chanel : @Xx_Sorce
+☆ Dev : @zqqqzq
 
 -قـم بإرسال `.الاوامر`
 ''')
